@@ -10,7 +10,7 @@ import {
 const WelcomeScreen = ({ navigation }) => {
   return (
     <ImageBackground
-      source={require("../assets/welcome.jpg")} // Utilisez votre image de fond
+      source={require("../assets/welcome.jpg")} 
       style={styles.background}
     >
       <View style={styles.overlay}>
@@ -20,7 +20,7 @@ const WelcomeScreen = ({ navigation }) => {
         </Text>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.replace("HomeTabs")} // Redirige vers les onglets
+          onPress={() => navigation.replace("HomeTabs")} 
         >
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
